@@ -1,3 +1,3 @@
 <?php
 header("location: public/");
-/*Index atualizado Git*/
+/*Redirecionamento utilizado para servidor WEB*/

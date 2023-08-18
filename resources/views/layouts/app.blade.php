@@ -127,7 +127,7 @@
                                     </a>
                                     <a class="dropdown-item" href="{{ route('dashboard_matches') }}"><i
                                             class="fa fa-list-ol" aria-hidden="true"></i>
-                                        {{ __('Dashbord') }}
+                                        {{ __('Dashboard') }}
                                     </a>
 
                             </li>
@@ -136,8 +136,7 @@
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle text-warning" href="#"
                                     role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                     v-pre>
-                                    <i class="fa fa-user-circle-o fa-lg"
-                                        aria-hidden="true"></i>{{ Auth::user()->name }}
+                                    <i class="fa fa-user-circle-o fa-lg" aria-hidden="true"></i>{{ Auth::user()->name }}
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">

@@ -91,7 +91,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                                 <div class="row">
                                     <div class="col-md-4">
@@ -201,7 +200,6 @@
                                             @if ($empate)
                                             @break
                                         @endif
-
                                         @php
                                             $forloop++;
                                         @endphp
@@ -243,12 +241,9 @@
                     @endif
 
                 </div>
-
-
                 </fieldset>
                 @endif
             </div>
-
         </div>
     </div>
     <hr />

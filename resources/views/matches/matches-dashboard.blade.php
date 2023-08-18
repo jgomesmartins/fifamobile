@@ -10,7 +10,8 @@
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>{{ __('Partidas Realizadas') }}
+                            <i class="fa fa-futbol-o fa-lg" style="color: green"
+                                aria-hidden="true"></i>{{ __('Partidas Realizadas') }}
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -24,7 +25,8 @@
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <i class="fa fa-globe fa-lg" aria-hidden="true"></i>{{ __('Resumo Temporadas') }}
+                            <i class="fa fa-globe fa-lg" style="color: blue"
+                                aria-hidden="true"></i>{{ __('Resumo Temporadas') }}
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -38,7 +40,8 @@
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <i class="fa fa-calendar fa-lg" aria-hidden="true"></i>{{ __('Resumo Dia') }}
+                            <i class="fa fa-calendar fa-lg" style="color: orange"
+                                aria-hidden="true"></i>{{ __('Resumo Dia') }}
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -51,9 +54,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
         <div class="card-footer text-muted">
             {{ config('app.name', 'Laravel') . ' Versão ' . config('app.version') }}
         </div>

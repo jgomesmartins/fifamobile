@@ -7,8 +7,8 @@
                     <div class="row align-items-start mb-2">
                         <div class="col-md-6">
                             <label for="dtmatchesday" class="form-label">{{ __('Data') }}</label>
-                            <input type="text" id="dtmatchesday" name="dtmatchesday" class="form-control"
-                                placeholder="Informe a data no calendário" readonly>
+                            <input type="text" id="dtmatchesday" value=" <?= date('d/m/Y') ?>" name="dtmatchesday"
+                                class="form-control" placeholder="Informe a data no calendário" readonly>
                             <div class="invalid-feedback">
                                 Data é obrigatório.
                             </div>
@@ -19,8 +19,6 @@
                 </fieldset>
             </form>
         </div>
-
-
         <div class="col" style="border-left: 1px solid rgb(180, 170, 170);">
             <form action="" class="">
                 <fieldset>
